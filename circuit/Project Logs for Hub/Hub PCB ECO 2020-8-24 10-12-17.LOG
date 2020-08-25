@@ -1,0 +1,82 @@
+Removed Pin From Net: NetName=MOSI Pin=P1-1
+Removed Pin From Net: NetName=MISO Pin=P1-3
+Removed Pin From Net: NetName=SCLK Pin=P1-5
+Added Component: Designator=C1(SOP16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(SOP16)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=MOSI Pin=C1-2
+Added Pin To Net: NetName=+5 Pin=C1-4
+Added Pin To Net: NetName=SCLK Pin=C1-6
+Added Pin To Net: NetName=GND Pin=C1-8
+Added Pin To Net: NetName=+5 Pin=C1-16
+Added Pin To Net: NetName=MISO Pin=C2-2
+Added Pin To Net: NetName=+5 Pin=C2-4
+Added Pin To Net: NetName=GND Pin=C2-8
+Added Pin To Net: NetName=+5 Pin=C2-16
+Added Pin To Net: NetName=MISO+ Pin=C2-1
+Added Pin To Net: NetName=MISO+ Pin=J1-3
+Added Pin To Net: NetName=MISO+ Pin=J2-3
+Added Pin To Net: NetName=MISO+ Pin=J3-3
+Added Pin To Net: NetName=MISO+ Pin=J4-3
+Added Pin To Net: NetName=MISO+ Pin=J5-3
+Added Pin To Net: NetName=MISO+ Pin=J6-3
+Added Pin To Net: NetName=MISO+ Pin=J7-3
+Added Pin To Net: NetName=MISO+ Pin=J8-3
+Added Pin To Net: NetName=MISO+ Pin=J9-3
+Added Pin To Net: NetName=MISO+ Pin=J10-3
+Added Pin To Net: NetName=MISO+ Pin=J11-3
+Added Pin To Net: NetName=MISO+ Pin=J12-3
+Added Pin To Net: NetName=MISO+ Pin=J13-3
+Added Pin To Net: NetName=MISO+ Pin=J14-3
+Added Pin To Net: NetName=MISO+ Pin=J15-3
+Added Pin To Net: NetName=MISO+ Pin=J16-3
+Added Net: Name=MISO+
+Added Pin To Net: NetName=MOSI+ Pin=C1-3
+Added Pin To Net: NetName=MOSI+ Pin=J1-1
+Added Pin To Net: NetName=MOSI+ Pin=J2-1
+Added Pin To Net: NetName=MOSI+ Pin=J3-1
+Added Pin To Net: NetName=MOSI+ Pin=J4-1
+Added Pin To Net: NetName=MOSI+ Pin=J5-1
+Added Pin To Net: NetName=MOSI+ Pin=J6-1
+Added Pin To Net: NetName=MOSI+ Pin=J7-1
+Added Pin To Net: NetName=MOSI+ Pin=J8-1
+Added Pin To Net: NetName=MOSI+ Pin=J9-1
+Added Pin To Net: NetName=MOSI+ Pin=J10-1
+Added Pin To Net: NetName=MOSI+ Pin=J11-1
+Added Pin To Net: NetName=MOSI+ Pin=J12-1
+Added Pin To Net: NetName=MOSI+ Pin=J13-1
+Added Pin To Net: NetName=MOSI+ Pin=J14-1
+Added Pin To Net: NetName=MOSI+ Pin=J15-1
+Added Pin To Net: NetName=MOSI+ Pin=J16-1
+Added Net: Name=MOSI+
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=P1-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC1_7 Pin=C1-7
+Added Pin To Net: NetName=NetC1_7 Pin=P1-5
+Added Net: Name=NetC1_7
+Added Pin To Net: NetName=NetC2_3 Pin=C2-3
+Added Pin To Net: NetName=NetC2_3 Pin=P1-3
+Added Net: Name=NetC2_3
+Added Pin To Net: NetName=SCLK+ Pin=C1-5
+Added Pin To Net: NetName=SCLK+ Pin=J1-5
+Added Pin To Net: NetName=SCLK+ Pin=J2-5
+Added Pin To Net: NetName=SCLK+ Pin=J3-5
+Added Pin To Net: NetName=SCLK+ Pin=J4-5
+Added Pin To Net: NetName=SCLK+ Pin=J5-5
+Added Pin To Net: NetName=SCLK+ Pin=J6-5
+Added Pin To Net: NetName=SCLK+ Pin=J7-5
+Added Pin To Net: NetName=SCLK+ Pin=J8-5
+Added Pin To Net: NetName=SCLK+ Pin=J9-5
+Added Pin To Net: NetName=SCLK+ Pin=J10-5
+Added Pin To Net: NetName=SCLK+ Pin=J11-5
+Added Pin To Net: NetName=SCLK+ Pin=J12-5
+Added Pin To Net: NetName=SCLK+ Pin=J13-5
+Added Pin To Net: NetName=SCLK+ Pin=J14-5
+Added Pin To Net: NetName=SCLK+ Pin=J15-5
+Added Pin To Net: NetName=SCLK+ Pin=J16-5
+Added Net: Name=SCLK+
+Added Member To Class: ClassName=Hub Member=Component C1 MAX3045
+Added Member To Class: ClassName=Hub Member=Component C2 MAX3095
+Added Room: Name=Hub

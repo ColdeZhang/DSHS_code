@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=MISO Pin=C1-85
+Removed Pin From Net: NetName=MOSI Pin=C1-86
+Removed Pin From Net: NetName=SCLK Pin=C1-87
+Added Component: Designator=C2(SOP16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C3(TSSOP-16)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=MOSI Pin=C2-2
+Added Pin To Net: NetName=+5 Pin=C2-4
+Added Pin To Net: NetName=SCLK Pin=C2-7
+Added Pin To Net: NetName=GND Pin=C2-8
+Added Pin To Net: NetName=+5 Pin=C2-16
+Added Pin To Net: NetName=MISO Pin=C3-3
+Added Pin To Net: NetName=+5 Pin=C3-4
+Added Pin To Net: NetName=GND Pin=C3-8
+Added Pin To Net: NetName=+5 Pin=C3-16
+Added Pin To Net: NetName=MISO+ Pin=C3-2
+Added Pin To Net: NetName=MISO+ Pin=J1-3
+Added Net: Name=MISO+
+Added Pin To Net: NetName=MOSI+ Pin=C2-1
+Added Pin To Net: NetName=MOSI+ Pin=J1-1
+Added Net: Name=MOSI+
+Added Pin To Net: NetName=NetC1_85 Pin=C1-85
+Added Pin To Net: NetName=NetC1_85 Pin=C2-3
+Added Net: Name=NetC1_85
+Added Pin To Net: NetName=NetC1_86 Pin=C1-86
+Added Pin To Net: NetName=NetC1_86 Pin=C3-1
+Added Net: Name=NetC1_86
+Added Pin To Net: NetName=NetC1_87 Pin=C1-87
+Added Pin To Net: NetName=NetC1_87 Pin=C2-5
+Added Net: Name=NetC1_87
+Added Pin To Net: NetName=SCLK+ Pin=C2-6
+Added Pin To Net: NetName=SCLK+ Pin=J1-5
+Added Net: Name=SCLK+
+Added Member To Class: ClassName=Unit Member=Component C2 MAX3095
+Added Member To Class: ClassName=Unit Member=Component C3 MAX3045
+Added Room: Name=Unit

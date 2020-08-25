@@ -1,0 +1,21 @@
+Change Component Designator: OldDesignator=HV-A-1 NewDesignator=HV-A2
+Change Component Designator: OldDesignator=HV-A-2 NewDesignator=HV-A1
+Added Component: Designator=HV-B1(BTB-805-20P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=HV-B2(BTB-805-12P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LV1(BTB-805-20P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LV2(BTB-805-12P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW1(BTB-805-20P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SW2(BTB-805-12P)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Unit Member=Component HV-B1 BTB-805-20P
+Added Member To Class: ClassName=Unit Member=Component HV-B2 BTB-805-12P
+Added Member To Class: ClassName=Unit Member=Component LV1 BTB-805-20P
+Added Member To Class: ClassName=Unit Member=Component LV2 BTB-805-12P
+Added Member To Class: ClassName=Unit Member=Component SW1 BTB-805-20P
+Added Member To Class: ClassName=Unit Member=Component SW2 BTB-805-12P
+Added Room: Name=Unit

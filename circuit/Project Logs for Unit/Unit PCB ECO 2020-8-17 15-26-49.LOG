@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=SS Pin=D1-1
+Removed Pin From Net: NetName=SS Pin=J1-8
+Change Component Designator: OldDesignator=HV-A1 NewDesignator=PW1
+Change Component Designator: OldDesignator=HV-A2 NewDesignator=PW2
+Change Component Designator: OldDesignator=HV-B1 NewDesignator=HV1
+Change Component Designator: OldDesignator=HV-B2 NewDesignator=HV2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=J1-8
+Added Net: Name=NetD1_1
+Added Room: Name=Unit

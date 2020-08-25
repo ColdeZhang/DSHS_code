@@ -1,0 +1,12 @@
+Added Component: Designator=1(BTB-805-20P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=2(BTB-805-12P)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+12 Pin=2-11
+Added Pin To Net: NetName=+12 Pin=2-12
+Added Net: Name=+12
+Added Pin To Net: NetName=GND Pin=2-9
+Added Pin To Net: NetName=GND Pin=2-10
+Added Net: Name=GND
+Added Class: Name=PW
+Added Room: Name=PW

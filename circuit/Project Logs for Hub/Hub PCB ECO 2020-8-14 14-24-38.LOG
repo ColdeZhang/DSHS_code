@@ -1,0 +1,97 @@
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-8
+Added Pin To Net: NetName=NetJ1_8 Pin=R1-2
+Added Net: Name=NetJ1_8
+Added Pin To Net: NetName=NetJ2_8 Pin=J2-8
+Added Pin To Net: NetName=NetJ2_8 Pin=R2-2
+Added Net: Name=NetJ2_8
+Added Pin To Net: NetName=NetJ3_8 Pin=J3-8
+Added Pin To Net: NetName=NetJ3_8 Pin=R3-2
+Added Net: Name=NetJ3_8
+Added Pin To Net: NetName=NetJ4_8 Pin=J4-8
+Added Pin To Net: NetName=NetJ4_8 Pin=R4-2
+Added Net: Name=NetJ4_8
+Added Pin To Net: NetName=NetJ5_8 Pin=J5-8
+Added Pin To Net: NetName=NetJ5_8 Pin=R5-2
+Added Net: Name=NetJ5_8
+Added Pin To Net: NetName=NetJ6_8 Pin=J6-8
+Added Pin To Net: NetName=NetJ6_8 Pin=R6-2
+Added Net: Name=NetJ6_8
+Added Pin To Net: NetName=NetJ7_8 Pin=J7-8
+Added Pin To Net: NetName=NetJ7_8 Pin=R7-2
+Added Net: Name=NetJ7_8
+Added Pin To Net: NetName=NetJ8_8 Pin=J8-8
+Added Pin To Net: NetName=NetJ8_8 Pin=R8-2
+Added Net: Name=NetJ8_8
+Added Pin To Net: NetName=NetJ9_8 Pin=J9-8
+Added Pin To Net: NetName=NetJ9_8 Pin=R9-1
+Added Net: Name=NetJ9_8
+Added Pin To Net: NetName=NetJ10_8 Pin=J10-8
+Added Pin To Net: NetName=NetJ10_8 Pin=R10-1
+Added Net: Name=NetJ10_8
+Added Pin To Net: NetName=NetJ11_8 Pin=J11-8
+Added Pin To Net: NetName=NetJ11_8 Pin=R11-1
+Added Net: Name=NetJ11_8
+Added Pin To Net: NetName=NetJ12_8 Pin=J12-8
+Added Pin To Net: NetName=NetJ12_8 Pin=R12-1
+Added Net: Name=NetJ12_8
+Added Pin To Net: NetName=NetJ13_8 Pin=J13-8
+Added Pin To Net: NetName=NetJ13_8 Pin=R13-1
+Added Net: Name=NetJ13_8
+Added Pin To Net: NetName=NetJ14_8 Pin=J14-8
+Added Pin To Net: NetName=NetJ14_8 Pin=R14-1
+Added Net: Name=NetJ14_8
+Added Pin To Net: NetName=NetJ15_8 Pin=J15-8
+Added Pin To Net: NetName=NetJ15_8 Pin=R15-1
+Added Net: Name=NetJ15_8
+Added Pin To Net: NetName=NetJ16_8 Pin=J16-8
+Added Pin To Net: NetName=NetJ16_8 Pin=R16-1
+Added Net: Name=NetJ16_8
+Added Pin To Net: NetName=p1 Pin=D1-1
+Added Pin To Net: NetName=p1 Pin=U1-15
+Added Net: Name=p1
+Added Pin To Net: NetName=p2 Pin=D2-1
+Added Pin To Net: NetName=p2 Pin=U1-14
+Added Net: Name=p2
+Added Pin To Net: NetName=p3 Pin=D3-1
+Added Pin To Net: NetName=p3 Pin=U1-13
+Added Net: Name=p3
+Added Pin To Net: NetName=p4 Pin=D4-1
+Added Pin To Net: NetName=p4 Pin=U1-12
+Added Net: Name=p4
+Added Pin To Net: NetName=p5 Pin=D5-1
+Added Pin To Net: NetName=p5 Pin=U1-11
+Added Net: Name=p5
+Added Pin To Net: NetName=p6 Pin=D6-1
+Added Pin To Net: NetName=p6 Pin=U1-10
+Added Net: Name=p6
+Added Pin To Net: NetName=p7 Pin=D7-1
+Added Pin To Net: NetName=p7 Pin=U1-9
+Added Net: Name=p7
+Added Pin To Net: NetName=p8 Pin=D8-1
+Added Pin To Net: NetName=p8 Pin=U1-7
+Added Net: Name=p8
+Added Pin To Net: NetName=p9 Pin=D9-1
+Added Pin To Net: NetName=p9 Pin=U2-15
+Added Net: Name=p9
+Added Pin To Net: NetName=p10 Pin=D10-1
+Added Pin To Net: NetName=p10 Pin=U2-14
+Added Net: Name=p10
+Added Pin To Net: NetName=p11 Pin=D11-1
+Added Pin To Net: NetName=p11 Pin=U2-13
+Added Net: Name=p11
+Added Pin To Net: NetName=p12 Pin=D12-1
+Added Pin To Net: NetName=p12 Pin=U2-12
+Added Net: Name=p12
+Added Pin To Net: NetName=p13 Pin=D13-1
+Added Pin To Net: NetName=p13 Pin=U2-11
+Added Net: Name=p13
+Added Pin To Net: NetName=p14 Pin=D14-1
+Added Pin To Net: NetName=p14 Pin=U2-10
+Added Net: Name=p14
+Added Pin To Net: NetName=p15 Pin=D15-1
+Added Pin To Net: NetName=p15 Pin=U2-9
+Added Net: Name=p15
+Added Pin To Net: NetName=p16 Pin=D16-1
+Added Pin To Net: NetName=p16 Pin=U2-7
+Added Net: Name=p16
+Added Room: Name=Hub

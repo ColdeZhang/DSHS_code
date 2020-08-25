@@ -1,0 +1,7 @@
+Added Component: Designator=HV-A-1(BTB-805-12P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=HV-A-2(BTB-805-20P)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Unit Member=Component HV-A-1 BTB-805-12P
+Added Member To Class: ClassName=Unit Member=Component HV-A-2 BTB-805-20P
+Added Room: Name=Unit

@@ -1,0 +1,6 @@
+Added Component: Designator=*(12V-UPS-Module)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=+12 Pin=*-3
+Added Pin To Net: NetName=GND Pin=*-4
+Added Member To Class: ClassName=PW Member=Component * 12V-UPS-Module
+Added Room: Name=PW

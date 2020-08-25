@@ -1,0 +1,25 @@
+Added Pin To Net: NetName=+5 Pin=C1-77
+Added Pin To Net: NetName=+5 Pin=C1-78
+Added Pin To Net: NetName=+5 Pin=HV-B2-11
+Added Pin To Net: NetName=+5 Pin=HV-B2-12
+Added Pin To Net: NetName=+5 Pin=LV2-11
+Added Pin To Net: NetName=+5 Pin=LV2-12
+Added Pin To Net: NetName=+5 Pin=SW2-11
+Added Pin To Net: NetName=+5 Pin=SW2-12
+Added Pin To Net: NetName=+12 Pin=C1-81
+Added Pin To Net: NetName=+12 Pin=C1-82
+Added Pin To Net: NetName=+12 Pin=HV-A2-11
+Added Pin To Net: NetName=+12 Pin=HV-A2-12
+Added Net: Name=+12
+Added Pin To Net: NetName=GND Pin=C1-79
+Added Pin To Net: NetName=GND Pin=C1-80
+Added Pin To Net: NetName=GND Pin=HV-A2-9
+Added Pin To Net: NetName=GND Pin=HV-A2-10
+Added Pin To Net: NetName=GND Pin=HV-B2-9
+Added Pin To Net: NetName=GND Pin=HV-B2-10
+Added Pin To Net: NetName=GND Pin=LV2-9
+Added Pin To Net: NetName=GND Pin=LV2-10
+Added Pin To Net: NetName=GND Pin=SW2-9
+Added Pin To Net: NetName=GND Pin=SW2-10
+Added Net: Name=GND
+Added Room: Name=Unit

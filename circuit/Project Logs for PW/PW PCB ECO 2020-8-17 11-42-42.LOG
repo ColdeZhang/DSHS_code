@@ -1,0 +1,11 @@
+Added Component: Designator=1(BoardEdge-3.96-20P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=2(BoardEdge-3.96-12P)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=2-9
+Added Pin To Net: NetName=GND Pin=2-10
+Added Pin To Net: NetName=+12 Pin=2-11
+Added Pin To Net: NetName=+12 Pin=2-12
+Added Member To Class: ClassName=PW Member=Component 1 BTB-805-20P
+Added Member To Class: ClassName=PW Member=Component 2 BTB-805-12P
+Added Room: Name=PW

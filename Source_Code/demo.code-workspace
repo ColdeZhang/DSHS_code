@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../core/homeassistant"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

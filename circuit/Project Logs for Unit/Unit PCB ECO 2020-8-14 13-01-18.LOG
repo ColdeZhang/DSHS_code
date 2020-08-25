@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+5 Pin=R2-2
+Removed Pin From Net: NetName=+5 Pin=R3-2
+Removed Pin From Net: NetName=+5 Pin=R4-2
+Removed Pin From Net: NetName=+5 Pin=R5-2
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=R3-2
+Added Pin To Net: NetName=NetR2_2 Pin=R4-2
+Added Pin To Net: NetName=NetR2_2 Pin=R5-2
+Added Net: Name=NetR2_2
+Added Room: Name=Unit

@@ -1,0 +1,12 @@
+Added Component: Designator=C1(Mega 2560 mini)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=IDS1 Pin=C1-60
+Added Pin To Net: NetName=IDS2 Pin=C1-61
+Added Pin To Net: NetName=IDS3 Pin=C1-62
+Added Pin To Net: NetName=IDS4 Pin=C1-63
+Added Pin To Net: NetName=MISO Pin=C1-85
+Added Pin To Net: NetName=MOSI Pin=C1-86
+Added Pin To Net: NetName=SCLK Pin=C1-87
+Added Pin To Net: NetName=SS Pin=C1-88
+Added Member To Class: ClassName=Unit Member=Component C1 Mega 2560 mini
+Added Room: Name=Unit

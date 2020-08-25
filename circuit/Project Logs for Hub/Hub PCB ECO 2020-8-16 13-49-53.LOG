@@ -1,0 +1,25 @@
+Added Component: Designator=R23(R0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R24(R0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R25(R0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R26(R0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=R23-1
+Added Pin To Net: NetName=EN1 Pin=R23-2
+Added Pin To Net: NetName=+5 Pin=R24-1
+Added Pin To Net: NetName=EN Pin=R24-2
+Added Pin To Net: NetName=+5 Pin=R25-1
+Added Pin To Net: NetName=EN2 Pin=R25-2
+Added Pin To Net: NetName=+5 Pin=R26-1
+Added Pin To Net: NetName=EN Pin=R26-2
+Added Member To Class: ClassName=Hub Member=Component R23 4.7k
+Added Member To Class: ClassName=Hub Member=Component R24 4.7k
+Added Member To Class: ClassName=Hub Member=Component R25 4.7k
+Added Member To Class: ClassName=Hub Member=Component R26 4.7k
+Added Room: Name=Hub
