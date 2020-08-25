@@ -1,7 +1,6 @@
-# DSHS
-## Deer Smart Home System
+# Deer Smart Home System
 
-### Most security smart home system.
+### The most security smart home system.
 ### 最安全的智能家居系统。
 
 ## 开发进度
