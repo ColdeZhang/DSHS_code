@@ -25,6 +25,23 @@
 
 import RPi.GPIO as GPIO
 
+# board pin setup
+
+def gpioInit():
+    '''Initialize GPIO with BOARD mode.'''
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.cleanup()
+
+def gpioOutInit(pin: list):
+    '''Set pin with OUT mode'''
+    for i in len(pin):
+        GPIO.setup(pin[i], GPIO.OUT)
+
+def gpioInInit(pin: list):
+    '''Set pin with IN mode'''
+    for i in len(pin):
+        GPIO.setup(pin[i], GPIO.IN)
+
 def HC138(pin_map: list, port_ID: int):
     '''control 74HC138 digital logic chips; pin_map[En, A2, A1, A0, ......]; port_ID starts from 0 '''
     # ep: pin_map[En, A2, A1, A0]
@@ -32,6 +49,7 @@ def HC138(pin_map: list, port_ID: int):
     # 0   1   2   3   4   5   6   7   8   9   10   11
     # ^               ^               ^        
     # port_ID start from '0'
+
     chip_num = len(pin_map) / 4 # numbers of chips
 
     if isinstance(chip_num, int):

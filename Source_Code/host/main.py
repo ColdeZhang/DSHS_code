@@ -33,26 +33,21 @@
 """
 
 # import libraries
-import RPi.GPIO as GPIO
-import spidev
 import time
 import chipCtrl
+import SPI
 
 # GPIO constants
 hub = [31, 33, 35, 37, 32, 36, 38, 40]
 
 
 # board pin setup
-GPIO.setmode(GPIO.BOARD)
-GPIO.cleanup()
-for i in len(hub):
-    GPIO.setup(hub[i], GPIO.OUT)
+chipCtrl.gpioInit()
+chipCtrl.gpioOutInit(hub)
+
 
 # initialze SPI
-spi = spidev.SpiDve()
-spi.open(0, 0)
-spi.max_speed_hz = 7800000
-msgPrint('SPI initialization success.')
+SPI.spiInit()
 
 # print and display system
 def msgPrint(msg):
@@ -61,7 +56,8 @@ def msgPrint(msg):
 # main circul function
 try:
     while True:
-        msgPrint('sys running......')
+        for i in 16:
+            chipCtrl.HC138(hub, i - 1)
 
         
 except KeyboardInterrupt:
