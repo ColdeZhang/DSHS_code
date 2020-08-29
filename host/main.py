@@ -54,7 +54,7 @@ def msgPrint(msg):
 # main circul function
 try:
     while True:
-        for i in 16:
+        for i in range(len(hub)*2):
             chipCtrl.HC138(hub, i - 1)
 
         
