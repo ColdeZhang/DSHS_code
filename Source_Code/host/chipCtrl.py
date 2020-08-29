@@ -25,8 +25,6 @@
 
 import RPi.GPIO as GPIO
 
-# board pin setup
-
 def gpioInit():
     '''Initialize GPIO with BOARD mode.'''
     GPIO.setmode(GPIO.BOARD)

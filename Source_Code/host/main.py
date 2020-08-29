@@ -40,11 +40,9 @@ import SPI
 # GPIO constants
 hub = [31, 33, 35, 37, 32, 36, 38, 40]
 
-
 # board pin setup
 chipCtrl.gpioInit()
 chipCtrl.gpioOutInit(hub)
-
 
 # initialze SPI
 SPI.spiInit()
