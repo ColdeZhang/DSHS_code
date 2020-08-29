@@ -61,3 +61,4 @@ try:
 except KeyboardInterrupt:
     spi.close()
     GPIO.cleanup()
+    
