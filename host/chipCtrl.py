@@ -32,12 +32,12 @@ def gpioInit():
 
 def gpioOutInit(pin: list):
     '''Set pin with OUT mode'''
-    for i in len(pin):
+    for i in range(len(pin)):
         GPIO.setup(pin[i], GPIO.OUT)
 
 def gpioInInit(pin: list):
     '''Set pin with IN mode'''
-    for i in len(pin):
+    for i in range(len(pin)):
         GPIO.setup(pin[i], GPIO.IN)
 
 def HC138(pin_map: list, port_ID: int):
