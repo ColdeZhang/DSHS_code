@@ -56,6 +56,7 @@ try:
     while True:
         for i in range(len(hub)*2):
             chipCtrl.HC138(hub, i)
+            time.sleep(2)
 
         
 except KeyboardInterrupt:
