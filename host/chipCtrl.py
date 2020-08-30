@@ -60,7 +60,7 @@ def HC138(pin_map: list, port_ID: int):
             chips_ID = int(port_ID / 8) # start from 0
             # enable required chip
             GPIO.output(pin_map[chips_ID * 4], GPIO.HIGH)
-            msgPrint('Opening port' + port_ID)
+            msgPrint('Opening port' + str(port_ID))
             if chips_port_ID == 0:
                 GPIO.output(pin_map[chips_ID * 4 + 1], GPIO.LOW)
                 GPIO.output(pin_map[chips_ID * 4 + 2], GPIO.LOW)
