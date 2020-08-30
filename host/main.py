@@ -55,6 +55,7 @@ def msgPrint(msg):
 try:
     while True:
         for i in range(len(hub)*2):
+            print(i)
             chipCtrl.HC138(hub, i - 1)
 
         
