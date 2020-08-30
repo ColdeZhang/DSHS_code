@@ -49,7 +49,7 @@ def HC138(pin_map: list, port_ID: int):
     # port_ID start from '0'
 
     chip_num = len(pin_map) / 4 # numbers of chips
-
+    print(chip_num)
     if isinstance(chip_num, int):
         if -1 < port_ID < (chip_num * 8 + 1):
             # set all chips to disable mode
