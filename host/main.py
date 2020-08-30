@@ -56,7 +56,7 @@ try:
     while True:
         for i in range(len(hub)*2):
             print(i)
-            chipCtrl.HC138(hub, i - 1)
+            chipCtrl.HC138(hub, i)
 
         
 except KeyboardInterrupt:
