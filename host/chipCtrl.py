@@ -54,7 +54,7 @@ def HC138(pin_map: list, port_ID: int):
     if math.modf(chip_num)[0] == 0:
         if -1 < port_ID < (chip_num * 8 + 1):
             # set all chips to disable mode
-            for i in chip_num:
+            for i in range(chip_num):
                 GPIO.output(pin_map[(i - 1) * 4], GPIO.LOW)
             chips_port_ID = port_ID % 8 # (0~7)
             chips_ID = int(port_ID / 8) # start from 0
