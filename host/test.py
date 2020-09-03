@@ -13,7 +13,7 @@ def write_pot(input):
 
 # Repeatedly switch a MCP4151 digital pot off then on
 while True:
-        write_pot(0x1FF)
+        write_pot(20)
         time.sleep(0.5)
-        write_pot(0x00)
-        time.sleep(0.5)
+        #write_pot(0x00)
+        #time.sleep(0.5)

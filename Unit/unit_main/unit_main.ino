@@ -37,8 +37,7 @@ void setup(void) {
 }
 
 // SPI interrupt routine
-ISR (SPI_STC_vect)
-{
+ISR (SPI_STC_vect) {
   byte c = SPDR;
   Serial.println(c);
   SPDR = c+10;
@@ -46,5 +45,4 @@ ISR (SPI_STC_vect)
 
 void loop() {
   
-
 }
