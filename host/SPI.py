@@ -40,7 +40,6 @@ def transmit(jsonData):
     jsonData = bytes2json(rcvd)
     return jsonData
 
-
 def json2bytes(jsonData):
     '''Convert json data to bytes data.'''
     bytesData = null
