@@ -23,13 +23,17 @@
 
 import spidev
 
+spi = spidev.SpiDev()
+
 def spiInit():
     '''Initialze SPI protocol'''
-    spi = spidev.SpiDev()
     spi.open(0, 0)
     spi.max_speed_hz = 7800000
 
-def transfer(jsonData):
+def spiClose():
+    spi.close()
+
+def transmit(jsonData):
     '''Execute spi transfer and return a json from units (slave devices)'''
     bytesData = json2bytes(jsonData)
     rcvd = spi.xfer(bytesData)

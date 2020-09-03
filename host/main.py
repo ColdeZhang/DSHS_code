@@ -39,6 +39,7 @@ import SPI
 
 # GPIO constants
 hub = [31, 33, 35, 37, 32, 36, 38, 40]
+port_num = len(hub)*2
 
 # board pin setup
 chipCtrl.gpioInit()
@@ -48,18 +49,22 @@ chipCtrl.gpioOutInit(hub)
 SPI.spiInit()
 
 # print and display system
-def msgPrint(msg):
+def msgPrint(msg: str):
     print('Sys_>' + msg)
+
+def openPort(port_id: int):
+    chipCtrl.HC138(hub, port_id)
 
 # main circul function
 try:
     while True:
-        for i in range(len(hub)*2):
-            chipCtrl.HC138(hub, i)
+        for i in range(port_num):
+            openPort(i)
             time.sleep(2)
+            SPI.transmit()
 
         
 except KeyboardInterrupt:
-    spi.close()
+    SPI.spiClose()
     GPIO.cleanup()
     
