@@ -23,7 +23,7 @@
 
 #include <SPI.h>
 
-void setup() {
+void setup(void) {
   Serial.begin(115200);
   
   // have to send on master in, *slave out*
@@ -31,7 +31,9 @@ void setup() {
 
   // turn on SPI in slave mode
   SPCR |= _BV(SPE);
-  
+
+  // now turn on interrupts
+  SPI.attachInterrupt();
 }
 
 // SPI interrupt routine
