@@ -33,7 +33,8 @@ void setup(void) {
   SPCR |= _BV(SPE);
 
   // now turn on interrupts
-  SPI.attachInterrupt();
+  SPI.attachInterrupt(
+    );
 }
 
 // SPI interrupt routine
